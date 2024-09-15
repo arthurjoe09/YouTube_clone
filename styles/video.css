@@ -1,0 +1,143 @@
+.video-grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}   
+.video-preview
+{   
+    
+        display: inline-block;
+        background-color: black;
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    
+    
+}
+.thumbnail-box
+{
+    height: 200px;
+    width: 330px;
+   position: relative;
+    
+
+}
+.about-video
+{
+    display: inline-block;
+}
+.name-time
+{
+    font-size: 14px;
+    color: rgb(183, 183, 183);
+}
+
+.video-time
+{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    font-family: roboto,Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 12px;
+
+}
+.thumbnail-pic
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+   
+}
+.video-description
+{
+    display: grid;
+    grid-template-columns: 35px 275px 25px;
+}
+.channel-picture-box
+{
+    padding-top: 8px;
+}
+.channel-picture
+{
+    width: 100%;
+    
+    border-radius: 25px;
+}
+.video-details
+{
+    padding-left: 12px;
+    font-family: roboto,Arial, Helvetica, sans-serif ;
+}
+.watch-trynow
+{
+    display: flex;
+    grid-template-columns: 140 140;
+}
+.watch-div
+{
+ display: inline-block;
+ 
+ 
+ 
+ 
+}
+.watch-button
+{
+    width: 120px;
+    background-color: black;
+    color: rgb(62, 166, 255);
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.try-now-div
+{
+ display: inline-block;
+}
+.try-now-button
+{
+    width: 120px;
+    background-color: rgb(76, 102, 125);
+    color: blue;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(62, 166, 255);
+    border-radius: 30px;
+    height: 30px;
+    font-size: 14px;
+    color: rgb(62, 166, 255);;
+}
+
+.menu-box
+{
+   width: 25px;
+   height: 25px;
+}
+.menu-button
+{
+    background-color: black;
+    height: 30px;
+    width:30px;
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+    padding: 0%;
+    border: none;
+}
+.dot-icon
+{
+    height: 25px;
+    width:25px;
+    
+    margin: 0;
+    border-color: black;
+    
+
+}

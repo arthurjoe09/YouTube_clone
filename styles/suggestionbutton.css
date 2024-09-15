@@ -1,0 +1,29 @@
+.suggestion-button
+{
+    margin-bottom: 30px;
+}
+.all-button
+{
+    background-color: white;
+    color: black;
+    font-family: roboto,arial;
+    height: 35px;
+}    
+.suggestion-button button
+{
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-right: 8px;
+    padding-bottom: 5px;
+    background-color: rgb(48, 47, 47);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-family: roboto,Arial, Helvetica, sans-serif;
+    height: 35px;
+    margin-left: 8px;
+}
+.suggestion-button button:hover
+{
+    background-color: rgb(64, 64, 64);
+}
